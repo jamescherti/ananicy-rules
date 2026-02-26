@@ -1,0 +1,4 @@
+{ "name": "emacs",       "nice": -7, "latency_nice": -10, "ioclass": "best-effort", "ioprio": 0, "oom_score_adj": -200 }
+{ "name": "emacsclient", "nice": -7, "latency_nice": -10, "ioclass": "best-effort", "ioprio": 0, "oom_score_adj": -200 }
+{ "name": "aspell",      "nice": -3, "latency_nice": 5,   "ioclass": "best-effort", "ioprio": 2 }
+{ "name": "git",         "nice": -3, "latency_nice": 5,   "ioclass": "best-effort", "ioprio": 2 }
